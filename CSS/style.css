@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100vh;
+    position: relative;
+}
+video{
+    width: 100%;
+}
+
+.logoHeader{
+    width: 40%;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    
+}
+
+.imgHeader{
+    width: 100%;
+}
+
