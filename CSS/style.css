@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: vtcGoblin ;
+    src: url(../font/VTCGoblinHand.ttf);
+}
+
+body{
+    background-color: black;
+}
+
 header{
     height: 100vh;
     position: relative;
@@ -22,4 +31,81 @@ video{
 .imgHeader{
     width: 100%;
 }
+
+main{
+    position: relative;
+}
+.chasseOuverte{
+    background-color: black;
+    position: relative;
+    height: 120vh;
+   
+    
+
+}
+h2{
+ color: goldenrod;
+ text-align: center;
+ margin-top: 20px;
+ font-family: "vtcGoblin";
+ padding: 100px 0;
+ font-size: 4rem;
+ position : relative;
+ z-index:1000;
+ 
+}
+h2::after{
+    content: "LA CHASSE EST OUVERTE";
+    width: 100%;
+    height: 100%;
+    font-size: 5rem;
+    border-radius:50% ;
+    color: rgba(72, 70, 70, 0.252);
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: -1;
+    
+    
+    
+}
+
+.divArkveld{
+    width: 90%;
+    position: absolute;
+    top: 100px;
+    left: -200px;
+    z-index: 2000;
+
+}
+
+.imgArkveld{
+    width: 100%;
+    
+}
+
+.articleArkveld{
+    width: 40%;
+    align-items: center;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(253,253,253,0.45626172832414214) 50%, rgba(0,0,0,0) 100%);
+}
+
+h3{
+    font-family: "vtcGoblin";
+    margin : 20px;
+    font-size: large;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 
